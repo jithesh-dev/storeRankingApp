@@ -18,7 +18,7 @@ DB - Postgress
 
 ```console
 pipenv install
-cd server_side
+cd store_rank_app
 python manage.py migrate
 python manage.py loaddata db.json
 python manage.py runserver
