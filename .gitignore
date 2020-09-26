@@ -130,7 +130,7 @@ dmypy.json
 
 #React
 # dependencies
-/node_modules
+/node_modules/
 /.pnp
 .pnp.js
 
@@ -138,7 +138,7 @@ dmypy.json
 /coverage
 
 # production
-/build
+# /build
 
 # misc
 .DS_Store
