@@ -1,7 +1,9 @@
+import uuid
 from django.db import models
 
 
 class Store(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     st_name = models.CharField(max_length=100)
     st_total_footfall = models.IntegerField()
     st_returning_footfall = models.IntegerField()
